@@ -1,0 +1,77 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.header {
+  text-align: center;
+}
+
+.component {
+  border: 10px solid blue;
+  background-color: blue;
+}
+
+.TextField-wrapper {
+  width: 100%;
+  margin-bottom: 15px;
+  text-align: left;
+}
+
+.TextField-root {
+  width: 100%;
+}
+
+.TextField-input {
+  padding: 12px;
+  font-size: 16px;
+}
+
+.TextField-notchedOutline {
+  border-color: #2196f3; /* Change to your desired color */
+}
+
+.TextField-focused .TextField-notchedOutline {
+  border-color: #1976d2; /* Change to your desired color */
+}
+
+/* Responsive styles */
+@media (min-width: 600px) {
+  /* Medium screens */
+  .TextField-wrapper {
+    width: 60%;
+  }
+}
+
+@media (min-width: 960px) {
+  /* Large screens */
+  .TextField-wrapper {
+    width: 80%;
+  }
+}
+
+/* Base styles for Card component */
+.Card-wrapper {
+  margin-top: 20px;
+}
+
+.Card-content {
+  padding: 20px;
+}
+
+/* Responsive styles */
+@media (min-width: 600px) {
+  /* Medium screens */
+  .Card-wrapper {
+    width: 60%;
+    margin: 20px auto;
+  }
+}
+
+@media (min-width: 960px) {
+  /* Large screens */
+  .Card-wrapper {
+    width: 80%;
+    margin: 20px auto;
+  }
+}
